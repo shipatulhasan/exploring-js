@@ -10,4 +10,15 @@ function getSum(arr){
 }
 const arr1 = [12, 30, 20, 11, 55]
 const mySum = getSum(arr1)
-console.log('Here is the summetion of given input: ', mySum)
+// console.log('Here is the summetion of given input: ', mySum)
+
+let a = 'Iphone'
+let b = 'iphone'
+if(a==b){
+    console.log('true');
+    
+}
+else{
+    console.log('false');
+    
+}
