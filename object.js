@@ -42,3 +42,5 @@ console.log(shoppingCart)
 
 
 // 
+delete shoppingCart.chocolate
+console.log(shoppingCart)

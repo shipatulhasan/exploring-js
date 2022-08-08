@@ -12,7 +12,7 @@ function totalCost(products){
         const product = products[i]
         const name = product.name
         let sum = product.price * product.quantity
-        console.log({product:name,quantity:product.quantity,cost:sum}) 
+        console.log({product:name,quantity:product.quantity,cost:sum}) // to show name of the product
         cost+=product.price * product.quantity
     }
     return cost

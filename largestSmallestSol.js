@@ -22,8 +22,8 @@
 // console.log(temp+" is the largest name among all")
 
 function getSecondHighest(arr){
-let highest = [0]
-let seHighest = [0]
+let highest = arr[0]
+let seHighest = arr[0]
 for(let i = 0; i<arr.length; i++){
     let number = arr[i]
     if(number > highest){
