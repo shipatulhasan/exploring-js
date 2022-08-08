@@ -36,3 +36,6 @@ const str = 'Hello! how are you? what\'s going on???? '
 const find  = 'Hello'
 const result = str.indexOf(find)!== -1 ? 'ya it\'s on the string' : 'Sorry wrong search'
 console.log(result)
+
+// statswith
+console.log(str.startsWith('Hello'))

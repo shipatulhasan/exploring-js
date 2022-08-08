@@ -79,16 +79,7 @@ function minimum(arr){
 minimum(books)
 
 
-// Unique nummber
-var numbers = [1,2,2,4,4,3,5,6,7,7,9,10]
-var unique = []
-for(var i = 0; i<numbers.length; i++){
-    if(unique.indexOf(numbers[i]) === -1){
-        unique.push(numbers[i])
-    }
-    
-}
-console.log(unique.sort())
+
 
 //Leap year
 function leapyear(year){
