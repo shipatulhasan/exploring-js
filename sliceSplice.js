@@ -23,3 +23,9 @@ console.log(partial)
 
 const cut = friends.splice(2, 3, 21, 55, 43, 39)
 console.log(friends)
+
+
+// 
+const arr = [1, 2, 4, 5, 9]
+arr.splice(2,1,3,7)
+console.log(arr)

@@ -17,6 +17,7 @@ function chipestPhone(phones){
         if(phone.price < highestCam.price){
             highestCam = phone
         }
+        
     }
     return highestCam
 }

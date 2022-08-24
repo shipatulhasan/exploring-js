@@ -22,3 +22,22 @@ else{
     console.log('false');
     
 }
+// write a program to where you will take an array as an input and show all the element of this array if program found any negetive value in your array then break.
+
+function getArray(arr){
+    let newArr = []
+    for(let i = 0; i<arr.length; i++){
+        if(arr[i]<0){
+            break
+        }
+        else{
+            newArr.push(arr[i])
+        }
+    }
+    return newArr
+    
+}
+
+const arr = [10, 20, 11, 2220, 220, 12, -1, 20, 40, 30, 22]
+const myArray = getArray(arr)
+console.log(myArray)

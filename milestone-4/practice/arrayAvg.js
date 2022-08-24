@@ -20,3 +20,16 @@ function arrayAvg(arr){
 const numbers = [12, 20, 20, 40, 21, 22]
 const getAverage = arrayAvg(numbers)
 console.log(getAverage)
+
+// using for of
+
+function avgArray(numbers){
+    let average = 0
+    for(const number of numbers){
+
+        average += number/numbers.length
+    }
+    return Number(average.toFixed(2))
+}
+const myAvg = avgArray([12, 20, 20, 40, 21, 22])
+console.log(myAvg)
